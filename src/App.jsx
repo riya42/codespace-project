@@ -25,7 +25,7 @@ import "./styles.css";
  */
 const siteProps = {
   name: "riya gupta",
-  title: "Web Designe & Content Creator",
+  title: "We Designe & Content Creator",
   email: "alex@example.com",
   gitHub: "microsoft",
   instagram: "microsoft",
