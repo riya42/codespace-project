@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/335448619.jpg";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "HOPE HARBOUR",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Developed a comprehensive platform by a team of 3 members for tracking missing persons through cuttingedge facial recognition, incorporated user-friendly registration and reporting tools helping increase successful reconnections.",
+    url: "https://github.com/riya42/DTI_Team_6",
   },
   {
-    title: "Web Development for Beginners",
+    title: "BLACK-JACK WIN PROBABILITY",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "The goal of the project is to predict the probability of winning by 96% simply by providing the details of your cards or dealer’s card",
+    url: "https://github.com/riya42/Black-Jack-Win-Probability",
   },
   {
-    title: "My Resume Site",
+    title: "MAZE MARVEL",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Its a visual representation of Pathfinding algorithms, offering users a practical understanding. It helps observe how algorithms navigate obstacles, evaluate paths, and determine the shortest route.",
+    url: "https://github.com/riya42/Maze-Marvel",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "PROPERTYPRO",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Developed and deployed a machine learning model to predict property prices in Bangalore, providing users with accurate estimates and increasing engagement by 40% on the real estate platform.",
+    url: "https://github.com/riya42/PropertyPro",
   },
 ];
 
