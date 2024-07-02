@@ -27087,15 +27087,15 @@ var _stylesCss = require("./styles.css");
  *
  * If you don't have one of the social sites listed, leave it as an empty string.
  */ const siteProps = {
-    name: "Riya Gupta",
-    title: "Data Analyst",
-    email: "riya.217904@gmail.com",
-    gitHub: "riya42",
-    instagram: "riiyaaa.12",
-    linkedIn: "riyagupta21",
+    name: "riya gupta",
+    title: "Web Designe & Content Creator",
+    email: "alex@example.com",
+    gitHub: "microsoft",
+    instagram: "microsoft",
+    linkedIn: "satyanadella",
     medium: "",
-    twitter: "",
-    youTube: "riyagupta5097"
+    twitter: "microsoft",
+    youTube: "Code"
 };
 const primaryColor = "#4E567E";
 const secondaryColor = "#D2F1E4";
@@ -27177,21 +27177,21 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
  *
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
- */ var _pexelsCodioful69850011Jpg = require("../images/pexels-codioful-6985001 (1).jpg");
-var _pexelsCodioful69850011JpgDefault = parcelHelpers.interopDefault(_pexelsCodioful69850011Jpg);
-const imageAltText = " background";
+ */ var _motionBackgroundJpg = require("../images/motion-background.jpg");
+var _motionBackgroundJpgDefault = parcelHelpers.interopDefault(_motionBackgroundJpg);
+const imageAltText = "purple and blue abstract background";
 /**
  * Sort description that expands on your title on the Home component.
- */ const description = "I'm a BTech CSE student studying at Bennett University.. I enjoy creating unique and simplistic user interfaces in creative ways.";
+ */ const description = "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */ const skillsList = [
     "Web design",
-    "Machine Learning",
-    "Data Analytics",
-    "HTML & CSS",
-    "JavaScript",
+    "User experience",
+    "Inclusive design",
+    "Focus group testing",
+    "Mobile user interfaces",
     "Graphic design", 
 ];
 /**
@@ -27206,7 +27206,7 @@ const About = ()=>{
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                 className: "background",
-                src: (0, _pexelsCodioful69850011JpgDefault.default),
+                src: (0, _motionBackgroundJpgDefault.default),
                 alt: imageAltText
             }, void 0, false, {
                 fileName: "src/Components/About.jsx",
@@ -27300,7 +27300,44 @@ $RefreshReg$(_c, "About");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/pexels-codioful-6985001 (1).jpg":"gD1cg"}],"gkKU3":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/motion-background.jpg":"kzNvo","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"kzNvo":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "motion-background.0a6a8db0.jpg" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"lgJ39":[function(require,module,exports) {
+"use strict";
+var bundleURL = {};
+function getBundleURLCached(id) {
+    var value = bundleURL[id];
+    if (!value) {
+        value = getBundleURL();
+        bundleURL[id] = value;
+    }
+    return value;
+}
+function getBundleURL() {
+    try {
+        throw new Error();
+    } catch (err) {
+        var matches = ("" + err.stack).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^)\n]+/g);
+        if (matches) // The first two stack frames will be this function and getBundleURLCached.
+        // Use the 3rd one, which will be a runtime in the original bundle.
+        return getBaseURL(matches[2]);
+    }
+    return "/";
+}
+function getBaseURL(url) {
+    return ("" + url).replace(/^((?:https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/.+)\/[^/]+$/, "$1") + "/";
+} // TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
+function getOrigin(url) {
+    var matches = ("" + url).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^/]+/);
+    if (!matches) throw new Error("Origin not found");
+    return matches[0];
+}
+exports.getBundleURL = getBundleURLCached;
+exports.getBaseURL = getBaseURL;
+exports.getOrigin = getOrigin;
+
+},{}],"gkKU3":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -27450,44 +27487,7 @@ function registerExportsForReactRefresh(module1) {
     }
 }
 
-},{"react-refresh/runtime":"786KC"}],"gD1cg":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "pexels-codioful-6985001 (1).ddcc449b.jpg" + "?" + Date.now();
-
-},{"./helpers/bundle-url":"lgJ39"}],"lgJ39":[function(require,module,exports) {
-"use strict";
-var bundleURL = {};
-function getBundleURLCached(id) {
-    var value = bundleURL[id];
-    if (!value) {
-        value = getBundleURL();
-        bundleURL[id] = value;
-    }
-    return value;
-}
-function getBundleURL() {
-    try {
-        throw new Error();
-    } catch (err) {
-        var matches = ("" + err.stack).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^)\n]+/g);
-        if (matches) // The first two stack frames will be this function and getBundleURLCached.
-        // Use the 3rd one, which will be a runtime in the original bundle.
-        return getBaseURL(matches[2]);
-    }
-    return "/";
-}
-function getBaseURL(url) {
-    return ("" + url).replace(/^((?:https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/.+)\/[^/]+$/, "$1") + "/";
-} // TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
-function getOrigin(url) {
-    var matches = ("" + url).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^/]+/);
-    if (!matches) throw new Error("Origin not found");
-    return matches[0];
-}
-exports.getBundleURL = getBundleURLCached;
-exports.getBaseURL = getBaseURL;
-exports.getOrigin = getOrigin;
-
-},{}],"7GWgX":[function(require,module,exports) {
+},{"react-refresh/runtime":"786KC"}],"7GWgX":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$8b43 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -28622,8 +28622,8 @@ var _propTypesDefault = parcelHelpers.interopDefault(_propTypes);
  *
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
- */ var _istockphoto1416048929612X612Jpg = require("../images/istockphoto-1416048929-612x612.jpg");
-var _istockphoto1416048929612X612JpgDefault = parcelHelpers.interopDefault(_istockphoto1416048929612X612Jpg);
+ */ var _womanWithTabletJpg = require("../images/woman-with-tablet.jpg");
+var _womanWithTabletJpgDefault = parcelHelpers.interopDefault(_womanWithTabletJpg);
 const imageAltText = "Adult female in office setting leaning against a glass wall while holding a platinum Microsoft Surface Pro 7 in tablet mode preparing to write with Microsoft Surface Pen";
 const Home = ({ name , title  })=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
@@ -28632,7 +28632,7 @@ const Home = ({ name , title  })=>{
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                 className: "background",
-                src: (0, _istockphoto1416048929612X612JpgDefault.default),
+                src: (0, _womanWithTabletJpgDefault.default),
                 alt: ""
             }, void 0, false, {
                 fileName: "src/Components/Home.jsx",
@@ -28715,11 +28715,11 @@ $RefreshReg$(_c, "Home");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/down-arrow.svg":"b5nCi","prop-types":"7wKI2","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/istockphoto-1416048929-612x612.jpg":"2DsGS"}],"b5nCi":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/down-arrow.svg":"b5nCi","prop-types":"7wKI2","../images/woman-with-tablet.jpg":"bEltf","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"b5nCi":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "down-arrow.1037091f.svg" + "?" + Date.now();
 
-},{"./helpers/bundle-url":"lgJ39"}],"2DsGS":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "istockphoto-1416048929-612x612.34e3dac4.jpg" + "?" + Date.now();
+},{"./helpers/bundle-url":"lgJ39"}],"bEltf":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "woman-with-tablet.b3bf1156.jpg" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"lCaEt":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$ed0d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
@@ -28749,8 +28749,8 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
  *
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
- */ var _335448619Jpg = require("../images/335448619.jpg");
-var _335448619JpgDefault = parcelHelpers.interopDefault(_335448619Jpg);
+ */ var _designDeskJpeg = require("../images/design-desk.jpeg");
+var _designDeskJpegDefault = parcelHelpers.interopDefault(_designDeskJpeg);
 const imageAltText = "desktop with books and laptop";
 /**
  * Project list
@@ -28759,24 +28759,24 @@ const imageAltText = "desktop with books and laptop";
  * links section. Below is a sample, update to reflect links you'd like to highlight.
  */ const projectList = [
     {
-        title: "HOPE HARBOUR",
-        description: "Developed a comprehensive platform by a team of 3 members for tracking missing persons through cuttingedge facial recognition, incorporated user-friendly registration and reporting tools helping increase successful reconnections.",
-        url: "https://github.com/riya42/DTI_Team_6"
+        title: "10 Things To Know About Azure Static Web Apps \uD83C\uDF89",
+        description: "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
+        url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i"
     },
     {
-        title: "BLACK-JACK WIN PROBABILITY",
-        description: "The goal of the project is to predict the probability of winning by 96% simply by providing the details of your cards or dealer’s card",
-        url: "https://github.com/riya42/Black-Jack-Win-Probability"
+        title: "Web Development for Beginners",
+        description: "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
+        url: "https://github.com/microsoft/web-dev-for-beginners"
     },
     {
-        title: "MAZE MARVEL",
-        description: "Its a visual representation of Pathfinding algorithms, offering users a practical understanding. It helps observe how algorithms navigate obstacles, evaluate paths, and determine the shortest route.",
-        url: "https://github.com/riya42/Maze-Marvel"
+        title: "My Resume Site",
+        description: "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
+        url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website"
     },
     {
-        title: "PROPERTYPRO",
-        description: "Developed and deployed a machine learning model to predict property prices in Bangalore, providing users with accurate estimates and increasing engagement by 40% on the real estate platform.",
-        url: "https://github.com/riya42/PropertyPro"
+        title: "GitHub Codespaces and github.dev",
+        description: "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
+        url: "https://www.youtube.com/watch?v=c3hHhRME_XI"
     }, 
 ];
 const Portfolio = ()=>{
@@ -28807,7 +28807,7 @@ const Portfolio = ()=>{
                             alignSelf: "center"
                         },
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                            src: (0, _335448619JpgDefault.default),
+                            src: (0, _designDeskJpegDefault.default),
                             style: {
                                 height: "90%",
                                 width: "100%",
@@ -28890,8 +28890,8 @@ $RefreshReg$(_c, "Portfolio");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/335448619.jpg":"8XSR3"}],"8XSR3":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "335448619.7e990ec6.jpg" + "?" + Date.now();
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/design-desk.jpeg":"jSSP3","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"jSSP3":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "design-desk.df4cd0cf.jpeg" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"lW6qc":[function() {},{}]},["1xC6H","ShInH","8lqZg"], "8lqZg", "parcelRequire6158")
 
