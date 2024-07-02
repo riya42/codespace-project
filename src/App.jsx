@@ -25,14 +25,14 @@ import "./styles.css";
  */
 const siteProps = {
   name: "riya gupta",
-  title: "We Designe & Content Creator",
-  email: "alex@example.com",
-  gitHub: "microsoft",
-  instagram: "microsoft",
-  linkedIn: "satyanadella",
+  title: "Web Designer & Data Analyst",
+  email: "riya.217904@gmail.com",
+  gitHub: "riya42",
+  instagram: "riiyaaa.12",
+  linkedIn: "riyagupta21",
   medium: "",
-  twitter: "microsoft",
-  youTube: "Code",
+  twitter: "",
+  youTube: "riyagupta5097",
 };
 
 const primaryColor = "#4E567E";
